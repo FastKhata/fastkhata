@@ -6,7 +6,7 @@ import { useTransactions } from './hooks/useTransactions';
 import { PlusCircle, MinusCircle } from 'lucide-react';
 
 export default function App() {
-  // In demo mode, userId is null (uses LocalStorage). Pass real auth UID when ready.
+  // In demo mode, userId is null (uses LocalStorage). Pass real auth UID when ready.rwfresh it
   const [userId] = useState(null); 
   const { transactions, loading, addTransaction, removeTransaction } = useTransactions(userId);
   
